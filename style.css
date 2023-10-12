@@ -3,6 +3,8 @@ body {
     color: rgb(3, 0, 48);
     padding: 10px;
     font-family: arial;
+   background-image: url(https://i.ytimg.com/vi/LbNrlf1P3GQ/maxresdefault.jpg);
+   background-repeat: no-repeat;
 }
 #all-contents {
   max-width: 800px;
@@ -40,7 +42,7 @@ a {
 main {
     background: rgb(88, 37, 13);
     display: flex;
-}
+  }
 .sidebar {
     margin-right: 25px;
     padding: 10px;
@@ -134,4 +136,3 @@ h2, h3 {
                           align-content: center;
                           justify-content: center;
                         }
-                    }

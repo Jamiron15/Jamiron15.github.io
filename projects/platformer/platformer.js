@@ -72,3 +72,26 @@ $(function () {
 
   registerSetup(setup);
 });
+/////////////////////////////////////////////////
+//////////ONLY CHANGE BELOW THIS POINT///////////
+/////////////////////////////////////////////////
+
+createCollectable("steve", 600, 0, 0.25, 1); //your example function call
+
+/////////////////////////////////////////////////
+//////////ONLY CHANGE ABOVE THIS POINT///////////
+/////////////////////////////////////////////////
+createPlatform(450,601,1,1)
+createPlatform(590,475,1,1)
+createPlatform(625,350,1,1)
+createPlatform(800,350,1,1)
+createPlatform(975,350,1,1)
+createPlatform(1275,500,1,1)
+createCollectable("diamond",780,0,0.25,1)
+createCollectable("kennedi",1255,0,0.25,1)
+createCannon("left", 500,2000)
+createCannon("left",400,1750)
+createCannon("left",250,1500)
+createCannon("top",775,1500)
+createCannon("top",950,1500)
+createCannon("top",1200,1500)
