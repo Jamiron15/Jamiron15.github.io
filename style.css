@@ -1,10 +1,9 @@
 body {
-    background: rgb(0, 121, 50);
-    color: rgb(3, 0, 48);
+    color: rgb(255, 255, 255);
     padding: 10px;
     font-family: arial;
-   background-image: url(https://i.ytimg.com/vi/LbNrlf1P3GQ/maxresdefault.jpg);
-   background-repeat: no-repeat;
+    background-image:radial-gradient(circle, blue, purple)
+}
 }
 #all-contents {
   max-width: 800px;
@@ -13,7 +12,6 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(0, 103, 134);
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -22,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(6, 0, 63);
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -40,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(88, 37, 13);
+    background: rgb(0, 30, 85);
     display: flex;
   }
 .sidebar {
@@ -124,7 +122,7 @@ h2, h3 {
                         }
           
                         .sidebar-img {
-                          width: 100%;
+                          width: 100px;
                         }
           
                         p,
@@ -136,4 +134,4 @@ h2, h3 {
                           align-content: center;
                           justify-content: center;
                         }
-                        
+                      }
